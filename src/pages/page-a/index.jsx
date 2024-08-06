@@ -16,8 +16,6 @@ export default function PageA() {
       });
       Taro.navigateTo({ url });
     });
-    // const newFormData = await promise;
-    // return Promise.resolve(newFormData);
   };
   const handleClick = async () => {
     const url = `/pages/page-b/index?name=${formData.name}&email=${formData.email}`;
